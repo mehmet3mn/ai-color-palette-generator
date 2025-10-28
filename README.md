@@ -1,9 +1,13 @@
-# AI Color Palette Generator
+# 🎨 AI Color Palette Generator
 
-Bu proje, kullanıcıdan alınan bir kelimeye göre yapay zekâ kullanarak 5 renkli bir HEX renk paleti üretir.
+Bu Streamlit uygulaması, kullanıcıdan aldığı kelimeye göre OpenAI API ile ilham verici bir renk paleti oluşturur.
 
 ## Özellikler
+- Kelimeye göre renk üretimi
+- HEX kodlarıyla görsel renk kutuları
+- Streamlit arayüzü
 
-- OpenAI GPT ile kelimeden ilham alan renk paleti üretimi
-- Streamlit ile sade ve etkileşimli arayüz
-- GitHub'a yüklemeye uygun yapı
+## Kurulum
+1. `pip install -r requirements.txt`
+2. `.env` dosyasına API anahtarını ekle
+3. `streamlit run app.py`
